@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient( red, darkblue);
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.location
+{
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.celsius
+{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.symbol
+{
+    margin: 10px;
+    font-size: medium;
+
+}
